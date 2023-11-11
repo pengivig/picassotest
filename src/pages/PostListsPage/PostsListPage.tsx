@@ -3,7 +3,7 @@ import {PostsList} from "../../components/PostsList/PostsList";
 
 export const PostsListPage = () => {
     return (
-        <div>
+        <div className={s.postListPage}>
             <PostsList />
         </div>
     )
