@@ -9,7 +9,13 @@ import avatar5 from '../../../assets/avatar5.png'
 import {LinkButton} from "../../common/LinkButton/LinkButton";
 import { NavLink} from "react-router-dom";
 
-export const PostCard: React.FC<Post> = ({id, userId, title, body, postNumber}) => {
+interface  PostCardProps {
+    post: Post,
+    postNumber: number
+
+}
+export const PostCard: React.FC<PostCardProps> = ({postNumber, post: {id, userId, title, body}}) => {
+
     let avatar = ''
     switch (userId) {
         case 1 || 6:
