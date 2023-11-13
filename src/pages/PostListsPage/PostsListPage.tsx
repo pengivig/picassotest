@@ -27,23 +27,7 @@ export const PostsListPage = () => {
 
     return (
         <div className={s.postListPage}>
-            {posts && (
-                <AutoSizer>
-                    {({height, width}: { height: any, width: any }) => (
-                        <InfiniteLoader >
-                        <FixedSizeList
-                            height={height}
-                            width={width}
-                            itemCount={100}
-                            itemSize={400}
-                        >
-                            {Row}
-                        </FixedSizeList>
-                    )}
-                        </InfiniteLoader>
-                </AutoSizer>
-            )
-            }
+            {posts && <PostsList posts={posts}/> }
             {error && <div>Ошибка при запросе</div>}
             {(isLoading) && <Preloader/>}
         </div>)
