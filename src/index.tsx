@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {HashRouter} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import {setupStore} from "./store/store";
 import {Provider} from "react-redux";
 
@@ -15,9 +15,9 @@ const store = setupStore()
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <HashRouter>
-                <App/>
-            </HashRouter>
+            <Router basename='/'>
+                <App />
+            </Router>
         </Provider>
     </React.StrictMode>
 );
