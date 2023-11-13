@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
         <Routes>
-            <Route path={'/'} element={<PostsListPage />}/>
-            <Route path={'/post/:id'} element={<PostDetailPage />} />
+            <Route path={'/picassotest/'} element={<PostsListPage />}/>
+            <Route path={'/picassotest/post/:id'} element={<PostDetailPage />} />
         </Routes>
     </div>
   );
