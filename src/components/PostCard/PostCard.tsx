@@ -1,12 +1,12 @@
 import React from "react";
-import {Post} from "../../../interfaces/post";
+import {Post} from "../../interfaces/post";
 import s from './PostCard.module.scss'
-import avatar1 from '../../../assets/avatar1.png'
-import avatar2 from '../../../assets/avatar2.png'
-import avatar3 from '../../../assets/avatar3.png'
-import avatar4 from '../../../assets/avatar4.png'
-import avatar5 from '../../../assets/avatar5.png'
-import {LinkButton} from "../../common/LinkButton/LinkButton";
+import avatar1 from '../../assets/avatar1.png'
+import avatar2 from '../../assets/avatar2.png'
+import avatar3 from '../../assets/avatar3.png'
+import avatar4 from '../../assets/avatar4.png'
+import avatar5 from '../../assets/avatar5.png'
+import {LinkButton} from "../common/LinkButton/LinkButton";
 import { NavLink} from "react-router-dom";
 
 interface  PostCardProps {
@@ -36,7 +36,7 @@ export const PostCard: React.FC<PostCardProps> = ({postNumber, post: {id, userId
 
     return (
         <div className={s.postCard__wrapper}>
-            <img src={avatar} alt={'#'}/>
+            {/*<img src={avatar} alt={'#'}/>*/}
             <span className={s.postCard__number}>{postNumber}</span>
             <div className={s.postCard__title}>
                 <h3>{title}</h3>
