@@ -1,5 +1,6 @@
 {
   "name": "picassotest",
+  "homepage": "https://pengivig.github.io/picassotest/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +53,7 @@
   },
   "devDependencies": {
     "@types/react-window": "^1.8.8",
+    "gh-pages": "^6.0.0",
     "sass": "^1.69.5"
   }
 }
