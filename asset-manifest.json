@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pengivig.github.io/picassotest/static/css/main.d5b4a1be.css",
-    "main.js": "/pengivig.github.io/picassotest/static/js/main.9552e36c.js",
-    "static/media/arrow-back.svg": "/pengivig.github.io/picassotest/static/media/arrow-back.8ea4b3716c084b7c849a.svg",
-    "index.html": "/pengivig.github.io/picassotest/index.html",
-    "main.d5b4a1be.css.map": "/pengivig.github.io/picassotest/static/css/main.d5b4a1be.css.map",
-    "main.9552e36c.js.map": "/pengivig.github.io/picassotest/static/js/main.9552e36c.js.map"
+    "main.css": "/picassotest/static/css/main.f5032bce.css",
+    "main.js": "/picassotest/static/js/main.4a94574b.js",
+    "static/media/arrow-back.svg": "/picassotest/static/media/arrow-back.8ea4b3716c084b7c849a.svg",
+    "index.html": "/picassotest/index.html",
+    "main.f5032bce.css.map": "/picassotest/static/css/main.f5032bce.css.map",
+    "main.4a94574b.js.map": "/picassotest/static/js/main.4a94574b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b4a1be.css",
-    "static/js/main.9552e36c.js"
+    "static/css/main.f5032bce.css",
+    "static/js/main.4a94574b.js"
   ]
 }
